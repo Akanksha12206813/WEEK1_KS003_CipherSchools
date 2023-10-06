@@ -1,0 +1,9 @@
+ #include<iostream>
+using namespace std;
+int main(){
+int a,b,c,d,e;
+cout << "Give 5 integers a,b,c,d,e: "<<endl;
+cin >> a >> b >> c >> d >> e;
+cout << "the numbers in reverse order: " << e << d << c << b << a;
+return 0;
+}
